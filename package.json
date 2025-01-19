@@ -88,6 +88,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/tailwindcss": "^3.1.0",
     "autoprefixer": "^10.4.20",
     "cross-env": "^7.0.3",
     "eslint": "^9",

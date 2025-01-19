@@ -201,6 +201,9 @@ importers:
       '@types/react-dom':
         specifier: ^19
         version: 19.0.3(@types/react@19.0.7)
+      '@types/tailwindcss':
+        specifier: ^3.1.0
+        version: 3.1.0
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.5.1)
@@ -2503,6 +2506,10 @@ packages:
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
+
+  '@types/tailwindcss@3.1.0':
+    resolution: {integrity: sha512-JxPzrm609hzvF4nmOI3StLjbBEP3WWQxDDJESqR1nh94h7gyyy3XSl0hn5RBMJ9mPudlLjtaXs5YEBtLw7CnPA==}
+    deprecated: This is a stub types definition. tailwindcss provides its own type definitions, so you do not need this installed.
 
   '@types/uuid@9.0.8':
     resolution: {integrity: sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==}
@@ -8402,6 +8409,12 @@ snapshots:
   '@types/resolve@1.20.6': {}
 
   '@types/semver@7.5.8': {}
+
+  '@types/tailwindcss@3.1.0':
+    dependencies:
+      tailwindcss: 3.4.17
+    transitivePeerDependencies:
+      - ts-node
 
   '@types/uuid@9.0.8': {}
 
